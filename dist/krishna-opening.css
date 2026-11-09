@@ -17,3 +17,4 @@
 .opening-names h2{font-size:clamp(36px,9vw,74px);margin-bottom:4px}.opening-names .generated-ornament{position:relative;top:-5px;margin-top:3px;margin-bottom:2px}.opening-names .wedding-location{top:-12px;margin-top:3px}@media(max-width:420px){.opening-names h2{font-size:36px}}
 /* Anchor the opening instruction beside the tail of the curved arrow. */
 .envelope-hint{position:relative;width:max-content;max-width:85%;margin:28px 20px 0 auto!important;text-align:right;font-size:10px!important;letter-spacing:1.1px;line-height:1.5}.envelope-arrow{right:-3%;bottom:-19%;width:45px;height:65px}@media(max-width:650px){.envelope-hint{margin:25px 10px 0 auto!important;font-size:8px!important;letter-spacing:.8px}.envelope-arrow{right:-5%;bottom:-21%;width:38px;height:58px}}@media(max-width:420px){.envelope-hint{margin:25px 7px 0 auto!important;font-size:8px!important}}
+.opening-names .generated-ornament{top:-10px}.opening-names .wedding-location{top:-18px}
