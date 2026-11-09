@@ -16,3 +16,5 @@ boatStars.remove();const clouds=document.createElement('div');clouds.className='
 const riverRipples=document.createElement('div');riverRipples.className='river-ripples';riverRipples.setAttribute('aria-hidden','true');entry.querySelector('.banaras-reveal').append(riverRipples);
 // Let the doors finish their motion before presenting the diya prompt.
 const boatPromptTransition=new MutationObserver(()=>{if(entry.classList.contains('boat-ready')&&!entry.dataset.promptSettled){entry.dataset.promptSettled='true';boatLight.style.opacity='0';boatLight.style.pointerEvents='none';setTimeout(()=>{boatLight.style.opacity='';boatLight.style.pointerEvents=''},motion?0:1100);boatPromptTransition.disconnect()}});boatPromptTransition.observe(entry,{attributes:true,attributeFilter:['class']});
+// Continue into a dedicated invitation page.
+entry.querySelector('.banaras-continue').onclick=()=>{entry.style.transition='opacity .55s';entry.style.opacity='0';setTimeout(()=>location.assign('invitation.html'),motion?0:500)};
