@@ -14,3 +14,5 @@
 /* Comfortable breathing room on narrow phone screens, including iPhone 16. */
 .gate>div.envelope-stage{width:min(490px,78vw)}@media(max-width:650px){.gate>div.envelope-stage{width:77vw}.envelope-intro{margin-bottom:58px}.envelope-intro .eyebrow{font-size:8px;letter-spacing:1.8px}.envelope-intro p{font-size:17px}.envelope-hint{font-size:9px!important;letter-spacing:1.3px}.envelope-arrow{right:-5%;width:38px;height:58px}}@media(max-width:420px){.gate>div.envelope-stage{width:77vw}.envelope-intro p{font-size:16px}}
 .gate .seal,.gate .seal:hover{background:transparent;border:0;border-radius:50%;box-shadow:none;text-shadow:none;padding:0;width:82px;height:82px;filter:drop-shadow(1px 5px 3px #78532555)}.seal img{width:100%;height:100%;object-fit:contain;pointer-events:none}.gate .seal:before{display:none}@media(max-width:650px){.gate .seal,.gate .seal:hover{width:65px;height:65px}}@media(max-width:420px){.gate .seal,.gate .seal:hover{width:60px;height:60px}}
+/* A gentle left tilt carries the flowers and wax seal with the envelope. */
+.envelope{transform:rotateX(5deg) rotateZ(-6deg)}
