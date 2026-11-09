@@ -20,3 +20,4 @@
 .opening-names .generated-ornament{top:-10px}.opening-names .wedding-location{top:-18px}
 /* Keep the invitation action beneath the standing figures. */
 .krishna-opening .opening-continue{position:fixed;left:50%;top:auto;bottom:calc(5% + env(safe-area-inset-bottom,0px));transform:translateX(-50%);margin:0;white-space:nowrap;z-index:6}.opening-names{transform:none!important}.opening-names.revealing{transform:none}.krishna-opening .opening-names{transition:opacity 1.6s}
+.krishna-opening .light-diyas{padding:8px 15px;font-size:13px;line-height:1.3;border-color:#f3d38c55;background:#081c358f;box-shadow:0 2px 12px #0002;bottom:calc(4% + env(safe-area-inset-bottom,0px));min-height:38px;letter-spacing:.3px}
