@@ -30,3 +30,5 @@
 .scene .diya-light-layer{transition:none;opacity:1!important}.scene .boat.lit{transition:opacity 6s ease-in-out}
 /* The final ghat/building glow follows the river lamps without a long wait. */
 .scene .boat.lit{transition:opacity 3s ease-in-out}
+/* Exact supplied artwork, animated only over its rectangular wooden leaves. */
+.temple-facade,.door{background-image:url('temple-door-supplied.svg')}.doors{cursor:pointer}.doors .open-button{inset:0;width:100%;height:100%;transform:none;border:0;border-radius:0;background:transparent;box-shadow:none;color:transparent;font-size:0;padding:0;z-index:5}.doors .open-button:focus-visible{outline:2px solid #f5db9c;outline-offset:-15px}.doors.open{cursor:default}.doors.open .open-button{visibility:hidden}
