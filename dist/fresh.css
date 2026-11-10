@@ -28,3 +28,5 @@
 .scene .boat.lit{transition:opacity 8s cubic-bezier(.22,.45,.3,1)}.scene .diya-light-layer{transition:opacity 8s cubic-bezier(.22,.45,.3,1)}.scene .read-button,.scene .read-button:hover{color:#fff;text-shadow:0 2px 9px #06152dbb}.read-button .scroll-down-arrow{border-color:#fff}
 /* Keep every local flame lit while the later ambient warmth fills the scene. */
 .scene .diya-light-layer{transition:none;opacity:1!important}.scene .boat.lit{transition:opacity 6s ease-in-out}
+/* The final ghat/building glow follows the river lamps without a long wait. */
+.scene .boat.lit{transition:opacity 3s ease-in-out}
