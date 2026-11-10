@@ -24,3 +24,5 @@
 .scene{overflow-anchor:none}#invitation{overflow-anchor:none}
 /* Warm bounced diya light gradually reaches the couple and the whole river scene. */
 .scene .boat.lit{background-image:url('banaras-boat-approved.png');opacity:0!important;transition:opacity 5s ease-in-out}.scene.ambient-warm .boat.lit{opacity:1!important}.scene .diya-light-layer{transition:opacity 5s ease-in-out}.scene.ambient-warm .diya-light-layer{opacity:0}
+/* Keep skyline lighting on a longer, uninterrupted blend. */
+.scene .boat.lit{transition:opacity 8s cubic-bezier(.22,.45,.3,1)}.scene .diya-light-layer{transition:opacity 8s cubic-bezier(.22,.45,.3,1)}.scene .read-button,.scene .read-button:hover{color:#fff;text-shadow:0 2px 9px #06152dbb}.read-button .scroll-down-arrow{border-color:#fff}
