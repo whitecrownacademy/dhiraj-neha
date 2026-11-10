@@ -22,3 +22,5 @@
 /* The two image states share one canvas and one coordinate system. */
 .scene .boat.lit,.scene.lamps-complete .boat.lit{opacity:0!important}.diya-light-layer{z-index:1;display:block}.scene .boat.dim{background-image:url('banaras-boat-approved-unlit.png');filter:none}
 .scene{overflow-anchor:none}#invitation{overflow-anchor:none}
+/* Warm bounced diya light gradually reaches the couple and the whole river scene. */
+.scene .boat.lit{background-image:url('banaras-boat-approved.png');opacity:0!important;transition:opacity 5s ease-in-out}.scene.ambient-warm .boat.lit{opacity:1!important}.scene .diya-light-layer{transition:opacity 5s ease-in-out}.scene.ambient-warm .diya-light-layer{opacity:0}
