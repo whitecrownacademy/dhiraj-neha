@@ -35,3 +35,4 @@ const warmthObserver=new MutationObserver(()=>{if(scene.classList.contains('illu
 
 // The supplied artwork already contains the opening prompt; tap either door or use keyboard.
 const doorButton=document.querySelector('.open-button');doorButton.textContent='Tap the doors to open';doorButton.setAttribute('aria-label','Open the temple doors');doors.addEventListener('click',event=>{if(event.target!==doorButton&&!opened)doorButton.click()});
+const doorGreeting=document.createElement('div');doorGreeting.className='door-greeting';doorGreeting.innerHTML='<p>You’re invited</p><span>TO A WEDDING IN UTTAR PRADESH</span>';doors.append(doorGreeting);
